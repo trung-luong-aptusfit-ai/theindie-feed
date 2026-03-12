@@ -1,0 +1,17 @@
+{
+  "name": "theindie-feed",
+  "version": "1.0.0",
+  "description": "RSS feed generator for YouTube video notes",
+  "main": "generate-feed.js",
+  "scripts": {
+    "build": "node generate-feed.js",
+    "dev": "node generate-feed.js && open index.html"
+  },
+  "keywords": ["rss", "feed", "youtube", "markdown"],
+  "author": "Stv",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.0.0"
+  }
+}
